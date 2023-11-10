@@ -1,0 +1,92 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+}
+body
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #212534;
+}
+.main
+{
+    margin-top: 3%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 30vw;
+    height: 90vh;
+    border-radius: 10px;
+    background: #212534;
+    box-shadow: 2px 2px 100px grey;
+}
+
+.buttons1
+{
+    display: grid;
+    grid-template-columns: 70px 70px 70px;
+}
+.buttons2
+{
+    display: grid;
+    grid-template-columns: 60px;
+}
+button
+{
+    cursor: pointer;
+    box-shadow: 2px 2px 5px grey;
+    border-radius: 10px;
+    margin-top: 10px;
+    height: 60px;
+    width: 60px;
+    background: #212534;
+    border: none;
+    color: white;
+}
+#display
+{
+    background: #212534;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    margin-top: 50px;
+    height: 40px;
+    width: 250px;
+    padding: 10px;
+    font-size: 25px;
+    box-shadow: 2px 2px 20px grey;
+}
+.allbuttons
+{
+    
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.equal
+{
+    height: 270px;
+}
+
+h1
+{
+    margin-top: 40px;
+    font-size: 50px;
+    
+}
+
+button:hover
+{
+    height: 62px;
+    width: 62px;
+}
+.equal:hover
+{
+    height: 270px;
+}
